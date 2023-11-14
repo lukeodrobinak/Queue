@@ -10,6 +10,7 @@ public class QueueNode<T> {
         this.parent = null;
     }
 
+
     //Constructor that sets data of the node
     public QueueNode(T data) {
         this.data = data;
