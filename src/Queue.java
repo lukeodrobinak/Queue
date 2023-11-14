@@ -15,9 +15,18 @@ public class Queue <T> {
     public Queue(){         // default constructer
         size = 0;
         bottom = null;
+        top = null;
     }
 
     public void enqueue(T data){ // push method
+
+        if (size == 0){ // if the size is 0
+            bottom = new QueueNode(data); // creates a new QueueNode with the data
+            top = bottom; // sets the top and bottom to the same element
+            size++; // adds to size
+            return;
+        }
+
         size++; // adds to size
         QueueNode addition = new QueueNode(data); // creates a new QueueNode with the data
         top.setParent(addition); // sets the top element to the new element
