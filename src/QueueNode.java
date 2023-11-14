@@ -1,4 +1,10 @@
-
+/**
+ * QueueNode.java
+ * Authors: Luke O’Drobinak
+ * Date: 11/10/2023
+ * Collaborators:
+ * Citations: Google, Stack Overflow
+ **/
 public class QueueNode<T> {
 
     private T data; //The data value contained in the node

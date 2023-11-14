@@ -1,3 +1,10 @@
+/**
+ * Main.java
+ * Authors: Luke O’Drobinak
+ * Date: 11/14/2023
+ * Collaborators:
+ * Citations: Google, Stack Overflow
+ **/
 public class Main {
     public static void main(String[] args) {
         Queue<Integer> queue = new Queue<>();
