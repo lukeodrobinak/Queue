@@ -11,7 +11,7 @@ public class Queue <T> {
     private QueueNode bottom; //bottom element
     private QueueNode top; // top element
 
-    public Queue()  {         // default constructer
+    public Queue(){         // default constructer
         size = 0;
         bottom = null;
     }
